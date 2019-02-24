@@ -5,5 +5,8 @@
         "xn--80adbjsgcdgtdgcxue6e3i.xn--80asehdb",
         "csl.ruslang.ru",
         "xn--k1alo.ruslang.ru"
+    ],
+    "routes": [
+        { "src": "/том(?<id>[12])$", "dest": "/slavdict-vol.$id.pdf" }
     ]
 }
