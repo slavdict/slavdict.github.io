@@ -6,7 +6,7 @@
         "csl.ruslang.ru",
         "xn--k1alo.ruslang.ru"
     ],
-    "routes": [
-        { "src": "/том(?<id>[12])$", "dest": "/slavdict-vol.$id.pdf" }
+    "builds": [
+        { "src": "*", "use": "@now/static" }
     ]
 }
