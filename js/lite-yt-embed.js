@@ -87,7 +87,7 @@ class LiteYTEmbed extends HTMLElement {
     }
 
     addIframe(){
-        let videoUrlWithQuery = `${this.videoId}?autoplay=1`;
+        let videoUrlWithQuery = `${this.videoId}?autoplay=1&enablejsapi=1`;
         if (this.rel && this.rel !== 'null') {
             videoUrlWithQuery+=`&rel=${this.rel}`;
         }
